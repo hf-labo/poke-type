@@ -1,0 +1,36 @@
+.App {
+  margin: 0 auto;
+}
+
+.App .select-list {
+  margin: 40px auto 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 800px;
+}
+
+.App .select-list button {
+  margin: 10px;
+}
+
+.App .select-list .select {
+  background-color: #ff0;
+}
+
+.App .result {
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+}
+
+.App .result .description {
+  margin-top: -20px;
+  font-size: 80%;
+  color: #aaa;
+}
+
+.App .result img {
+  margin: 2px;
+  width: 40px;
+}
